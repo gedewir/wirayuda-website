@@ -3,6 +3,6 @@
     src: url(fonts/oddjob.ttf);
 }
 
-.title {
-  font-family: oddjob;
+h1 {
+  font-family: 'oddjob';
 }
