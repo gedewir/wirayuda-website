@@ -1,8 +1,56 @@
+/* colour palette
+#03071E -- black
+#CACFD6 -- light grey
+#D6E5E3 -- white
+#009966 -- cyan green
+#515B3A -- army green
+ */
+
+
+body {
+    background: linear-gradient(75deg, #A8A9AD, #d6e5e3);
+    background-size: 1500% 1500%;
+
+    animation: AnimationName 45s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+@font-face {
+  font-family: 'floane';
+  src: url(fonts/Floane-Regular.otf);
+}
+
+
 @font-face {
     font-family: 'oddjob';
     src: url(fonts/oddjob.ttf);
+    font-style: italic;
+    font-size: 20px;
 }
 
 h1 {
-  font-family: 'oddjob';
+  font-family: 'floane';
+  color: #009966;
+  font-size: 500%;
+}
+
+nav {
+  color: white;
+}
+
+nav > div > a {
+  font-family: 'floane';
+  text-decoration: none;
+  color: #515B3A;
+}
+
+nav > div > a:hover {
+  text-decoration: none;
+  color: #009966;
+  font-size: 120%;
+  transition: 0.5s;
 }
