@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'oddjob';
+    src: url(fonts/oddjob.ttf);
+}
+
+.title {
+  font-family: oddjob;
+}
