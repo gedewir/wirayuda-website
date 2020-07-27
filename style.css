@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-h1 {
+.title {
   font-family: 'floane';
   color: #009966;
   font-size: 500%;
@@ -43,7 +43,7 @@ nav {
   flex: auto;
 }
 
-nav > ul > li > a {
+.navbar > li > a {
   font-size: 20px;
   text-decoration: none;
   font-family: 'floane';
@@ -51,7 +51,7 @@ nav > ul > li > a {
   color: #009966;
 }
 
-nav > ul >li > a:hover {
+.navbar > li > a:hover {
   text-decoration: none;
   color: #596440;
   font-size: 30px;
