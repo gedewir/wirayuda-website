@@ -3,7 +3,7 @@
 #CACFD6 -- light grey
 #D6E5E3 -- white
 #009966 -- cyan green
-#515B3A -- army green
+#515B3A -- laurel green
  */
 
 
@@ -11,12 +11,12 @@ body {
     background: linear-gradient(75deg, #A8A9AD, #d6e5e3);
     background-size: 1500% 1500%;
 
-    animation: AnimationName 45s ease infinite;
+    animation: AnimationName 60s ease infinite;
 }
 
 @keyframes AnimationName {
-    0%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+    0%{background-position:100% 20%}
+    100%{background-position:50% 200%}
 }
 
 @font-face {
@@ -39,18 +39,27 @@ h1 {
 }
 
 nav {
-  color: white;
+  background: #C8CFB4;
+  flex: auto;
 }
 
-nav > div > a {
+nav > ul > li > a {
+  font-size: 20px;
+  text-decoration: none;
   font-family: 'floane';
   text-decoration: none;
-  color: #515B3A;
+  color: #009966;
 }
 
-nav > div > a:hover {
+nav > ul >li > a:hover {
   text-decoration: none;
-  color: #009966;
-  font-size: 120%;
+  color: #596440;
+  font-size: 30px;
   transition: 0.5s;
+  transform-style: flat;
+  transition-delay: 0.1s;
+}
+
+nav > ul {
+  list-style: none;
 }
