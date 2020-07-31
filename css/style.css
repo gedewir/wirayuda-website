@@ -1,0 +1,73 @@
+/* colour palette
+#777777 -- grey
+#242424 -- blackish
+#1259fe -- ligher blue
+ */
+
+@font-face {
+  font-family: pulp;
+  font-style: normal;
+  src: local(fonts/pulp-fiction.ttf);
+}
+
+.title-box {
+  float: left;
+}
+
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-decoration: none;
+  font-family: pulp;
+}
+
+.title-link:hover {
+  color: #003098;
+}
+
+header {
+  background-color: #2d68ee;
+  background: linear-gradient(90deg,#03071E,#003098);
+  height: auto;
+  width: auto;
+}
+
+.navbar > li > a:hover {
+  text-decoration: none;
+  color: #1259fe;
+}
+
+.navbar > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+header {
+  border-radius: 10px;
+  text-align: right;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar > li {
+  float: right;
+}
+
+.wrapper {
+  width: 1350px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
