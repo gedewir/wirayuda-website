@@ -3,11 +3,9 @@
 #242424 -- blackish
 #1259fe -- ligher blue
  */
-
 @font-face {
-  font-family: pulp;
-  font-style: normal;
-  src: local(fonts/pulp-fiction.ttf);
+  font-family: mon;
+  src: url(fonts/monterchi-book.otf);
 }
 
 .title-box {
@@ -16,22 +14,24 @@
 
 
 .title {
-  text-align: center;
+  font-family: Floane;
   color: #fff;
   font-size: 50px;
   text-decoration: none;
-  font-family: pulp;
 }
 
-.title-link:hover {
+.title:hover {
   color: #003098;
 }
 
 header {
   background-color: #2d68ee;
   background: linear-gradient(90deg,#03071E,#003098);
+  top: 0px;
+  left: 0px;
   height: auto;
   width: auto;
+  border-radius: 20px;
 }
 
 .navbar > li > a:hover {
@@ -45,11 +45,6 @@ header {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-}
-
-header {
-  border-radius: 10px;
-  text-align: right;
 }
 
 .navbar {
