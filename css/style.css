@@ -4,12 +4,13 @@
 #1259fe -- ligher blue
  */
 body {
-  background: #1259fe;
+  background: #000000;
 }
 
 @font-face {
-  font-family: 'terminal';
-  src: url(fonts/PetMe64.ttf);
+  font-family: "PetMe64";
+  src: url('../fonts/PetMe64.ttf') format('truetype'),
+       url('../fonts/monterchi-book.otf') format('open-typeface');
 }
 
 .title-box {
@@ -18,10 +19,15 @@ body {
 
 
 .title {
-  font-family: 'terminal';
-  color: #fff;
-  font-size: 50px;
+  font-family: "PetMe64";
+  color: #00FF09;
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 57px;
+  line-height: 57px;
+  letter-spacing: -0.15em;
+
 }
 
 .title:hover {
@@ -29,13 +35,14 @@ body {
 }
 
 header {
-  background-color: #2d68ee;
-  background: linear-gradient(90deg,#03071E,#003098);
+  background-color: #000000;
   top: 0px;
   left: 0px;
-  height: auto;
-  width: auto;
-  border-radius: 20px;
+  border-radius: 0px;
+  border: 7px solid #00FF09;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 165px;
+  border: 7px solid #00FF09
 }
 
 .navbar > li > a:hover {
@@ -45,7 +52,7 @@ header {
 
 .navbar > li > a {
   display: block;
-  color: white;
+  color: #00FF09;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -54,7 +61,7 @@ header {
 .navbar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 30px;
   overflow: hidden;
   text-align: center;
 }
@@ -64,9 +71,11 @@ header {
 }
 
 .wrapper {
-  width: 1350px;
+  width: 1300px;
   padding: 20px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
+
+.header-nav {
