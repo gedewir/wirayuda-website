@@ -3,8 +3,12 @@
 #242424 -- blackish
 #1259fe -- ligher blue
  */
+body {
+  background: #fff;
+}
+
 @font-face {
-  font-family: mon;
+  font-family: 'monterchi';
   src: url(fonts/monterchi-book.otf);
 }
 
@@ -14,7 +18,7 @@
 
 
 .title {
-  font-family: Floane;
+  font-family: 'monterchi';
   color: #fff;
   font-size: 50px;
   text-decoration: none;
