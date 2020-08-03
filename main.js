@@ -1,4 +1,4 @@
 var typed = new Typed('#typed', {
             stringsElement:'#typed-name',
-            typeSpeed: 60,
+            typeSpeed: 40,
             shuffle: true,});

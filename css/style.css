@@ -4,7 +4,17 @@
 #1259fe -- ligher blue
  */
 body {
-  background: #000000;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background:
+        linear-gradient(-90deg, #fff 1px, transparent 1px),
+        linear-gradient(#ffff 1px, #000000 1px, #000000 100px, transparent 1px),
+        #f2f2f2;
+    background-size:
+        100px 100px,
+        100px 100px;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -25,14 +35,16 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 57px;
-  line-height: 57px;
+  font-size: 40px;
+  line-height: 52px;
   letter-spacing: -0.15em;
-
+  display: flex;
 }
 
-.title:hover {
-  color: #003098;
+#title:hover {
+  color: #ffff;
+  font-size: 42px;
+  transition: 0.5s ease;
 }
 
 header {
@@ -44,28 +56,33 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   height: 0.7fr;
   width: 0.7fr;
-  border: 7px solid #00FF09
+  border: 7px solid #00FF09;
 }
 
 .navbar > li > a:hover {
-  text-decoration: none;
-  color: #1259fe;
+  text-decoration: underline;
+  color: #ffff;
 }
 
 .navbar > li > a {
-  display: block;
+  position: relative;
+  overflow: hidden;
+  display: inline;
   color: #00FF09;
   text-align: center;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
   font-family: PetMe64;
+  letter-spacing: -0.15em;
 }
 
 nav {
-  width: 50%;
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
   overflow: auto;
   text-align: center;
 }

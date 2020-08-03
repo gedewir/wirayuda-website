@@ -5,24 +5,27 @@
 }
 
 #portrait-pic {
-  width: 100%;
+  object-fit:  fill;
+  object-position: center;
+  width: 500px;
   height: 100%;
-  padding: 10px;
 }
 
 .hero {
+  background: linear-gradient(#000000, #9198e5);
+  padding:2rem;
   display: grid;
   width: auto;
-  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-template-columns: 0.5fr 1.5fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 2rem;
-  background: #03071E;
-}
+  grid-gap: 2rem;}
 
 .hero > #item1{
-  padding: 40px;
   font-family: PetMe64;
-
   color: #00FF09;
-  font-size: 20px;
+  font-size: 34px;
+}
+
+.space {
+  padding-top: 50px;
 }
