@@ -12,15 +12,15 @@
 
 .hero {
   display: grid;
-  width: 90vmax;
-  grid-template-columns: 200px 200px 200px;
+  width: auto;
+  grid-template-columns: 0.5fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 2rem;
   background: #03071E;
 }
 
 .hero > #item1{
-  padding: 30px;
+  padding: 40px;
   font-family: PetMe64;
 
   color: #00FF09;
