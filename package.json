@@ -1,0 +1,23 @@
+{
+  "name": "typed.js",
+  "version": "1.0.0",
+  "description": "## This is my personal website.",
+  "main": "main.js",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedewir/wirayuda-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedewir/wirayuda-website/issues"
+  },
+  "homepage": "https://github.com/gedewir/wirayuda-website#readme"
+}
