@@ -5,17 +5,20 @@
 }
 
 #portrait-pic {
-  object-fit:  fill;
+  object-fit: cover;
   object-position: center;
-  width: 500px;
+  width: 100%;
   height: 100%;
 }
 
 .hero {
-  background: linear-gradient(#000000, #9198e5);
+  background: rgba(0,0,0, 0.95);
+  background-attachment: fixed;
   padding:2rem;
   display: grid;
   width: auto;
+  top: calc(50%-10px);
+  left: calc(50%-10px);
   grid-template-columns: 0.5fr 1.5fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 2rem;}
@@ -23,9 +26,15 @@
 .hero > #item1{
   font-family: PetMe64;
   color: #00FF09;
-  font-size: 34px;
+  font-size: 36px;
+  font-size: 1.5vw;
 }
 
 .space {
   padding-top: 50px;
+}
+/*.hero:after{
+  background: inherit;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(30px);
 }
