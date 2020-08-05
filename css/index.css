@@ -12,7 +12,8 @@
 }
 
 .hero {
-  background: rgba(0,0,0, 0.95);
+  background: rgb(63,94,251);
+  background: linear-gradient(180deg,rgba(80, 1, 255, 0.95) 0%, rgba(255, 60, 0, 0.95) 100%);
   background-attachment: fixed;
   padding:2rem;
   display: grid;
@@ -20,7 +21,7 @@
   top: calc(50%-10px);
   left: calc(50%-10px);
   grid-template-columns: 0.5fr 1.5fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 2rem;}
 
 .hero > #item1{
@@ -33,8 +34,23 @@
 .space {
   padding-top: 50px;
 }
-/*.hero:after{
-  background: inherit;
- box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
- filter: blur(30px);
+
+.description {
+  color: #ffff;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.links {
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg,rgba(80, 1, 255, 0.95) 0%, rgba(255, 60, 0, 0.95) 100%);
+    background-attachment: fixed;
+    padding:2rem;
+    display: grid;
+    width: auto;
+    top: calc(50%-10px);
+    left: calc(50%-10px);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;}
 }
