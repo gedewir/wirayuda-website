@@ -2,7 +2,8 @@
 
 ## This is my personal website
 
-##Libraries & Frameworks used
+## Libraries & Frameworks used
 
-###Typed.js
-####I like this library
+### Typed.js
+
+#### I like this library
