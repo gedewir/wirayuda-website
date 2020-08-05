@@ -13,8 +13,8 @@
 
 .hero {
   background: rgb(63,94,251);
-  background: linear-gradient(180deg,rgba(80, 1, 255, 0.95) 0%, rgba(255, 60, 0, 0.95) 100%);
-  background-attachment: fixed;
+  background: linear-gradient(180deg,rgba(255, 1, 1, 0.8) 0%, rgba(20, 0, 255, 0.8) 100%);
+  background-attachment: scroll;
   padding:2rem;
   display: grid;
   width: auto;
@@ -43,8 +43,8 @@
 
 .links {
     background: rgb(63,94,251);
-    background: linear-gradient(180deg,rgba(80, 1, 255, 0.95) 0%, rgba(255, 60, 0, 0.95) 100%);
-    background-attachment: fixed;
+    background: linear-gradient(180deg,rgba(0, 16, 255, 0.8) 0%, rgba(0, 255, 147, 0.8) 100%);
+    background-attachment: scroll;
     padding:2rem;
     display: grid;
     width: auto;
