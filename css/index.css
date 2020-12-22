@@ -54,3 +54,10 @@
     grid-template-rows: 1fr;
     grid-gap: 2rem;}
 }
+
+#github-pic {
+  object-fit: cover;
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+}
