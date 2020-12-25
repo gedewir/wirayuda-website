@@ -112,7 +112,7 @@ nav {
   grid-template-rows: 1fr;
   grid-gap: 2rem;}
 
-.hero > #item1{
+#typed-title{
   font-family: PetMe64;
   color: #00FF09;
   font-size: 36px;
@@ -120,7 +120,7 @@ nav {
 }
 
 .description {
-  padding: 2rem;
+  padding: 1rem;
   color: #ffff;
   font-family: monospace;
   font-size: 20px;
@@ -130,4 +130,29 @@ nav {
   background: rgb(63,94,251);
   background: linear-gradient(180deg,rgba(255, 1, 1, 0.8) 0%, rgba(20, 0, 255, 0.8) 100%);
   background-attachment: scroll;
+}
+
+.links {
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg,rgba(0, 16, 255, 0.8) 0%, rgba(0, 255, 147, 0.8) 100%);
+    background-attachment: scroll;
+    padding:2rem;
+    display: grid;
+    width: auto;
+    top: calc(50%-10px);
+    left: calc(50%-10px);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;}
+}
+
+.space {
+  padding-top: 150px;
+}
+
+#github-pic {
+  object-fit: fill;
+  object-fit: fill;
+  width: 75%;
+  height: 75%;
 }
