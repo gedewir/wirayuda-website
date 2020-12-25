@@ -101,3 +101,33 @@ nav {
   position: relative;
   overflow: hidden;
 }
+
+.hero {
+  padding:2rem;
+  display: grid;
+  width: auto;
+  top: calc(50%-10px);
+  left: calc(50%-10px);
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2rem;}
+
+.hero > #item1{
+  font-family: PetMe64;
+  color: #00FF09;
+  font-size: 36px;
+  font-size: 1.5vw;
+}
+
+.description {
+  padding: 2rem;
+  color: #ffff;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#gradient {
+  background: rgb(63,94,251);
+  background: linear-gradient(180deg,rgba(255, 1, 1, 0.8) 0%, rgba(20, 0, 255, 0.8) 100%);
+  background-attachment: scroll;
+}
