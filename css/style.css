@@ -106,10 +106,9 @@ nav {
   padding:2rem;
   display: grid;
   width: auto;
+  height: inherit;
   top: calc(50%-10px);
   left: calc(50%-10px);
-  grid-template-columns: 0.5fr 1.5fr;
-  grid-template-rows: 1fr;
   grid-gap: 2rem;}
 
 #typed-title{
@@ -136,23 +135,30 @@ nav {
     background: rgb(63,94,251);
     background: linear-gradient(180deg,rgba(0, 16, 255, 0.8) 0%, rgba(0, 255, 147, 0.8) 100%);
     background-attachment: scroll;
-    padding:2rem;
     display: grid;
     width: auto;
     top: calc(50%-10px);
     left: calc(50%-10px);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 2rem;}
+    grid-gap: 2rem;
+    padding-left: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .space {
   padding-top: 150px;
 }
 
-#github-pic {
+.link-pics {
+  opacity: 80%;
   object-fit: fill;
   object-fit: fill;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
+}
+
+.link-pics:hover {
+  opacity: 100%;
 }
