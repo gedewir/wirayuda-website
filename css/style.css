@@ -139,12 +139,11 @@ nav {
     width: auto;
     top: calc(50%-10px);
     left: calc(50%-10px);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     padding-left: 10em;
     padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 .space {
@@ -152,8 +151,8 @@ nav {
 }
 
 .link-pics {
+  object-position: center;
   opacity: 80%;
-  object-fit: fill;
   object-fit: fill;
   width: 50%;
   height: 50%;
