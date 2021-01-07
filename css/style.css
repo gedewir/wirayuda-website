@@ -161,3 +161,7 @@ nav {
 .link-pics:hover {
   opacity: 100%;
 }
+
+p, h3{
+  font-family: sans-serif;
+}
