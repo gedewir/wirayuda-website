@@ -106,7 +106,7 @@ nav {
   padding:2rem;
   display: grid;
   width: auto;
-  height: inherit;
+  height: auto;
   top: calc(50%-10px);
   left: calc(50%-10px);
   grid-gap: 2rem;}
@@ -143,7 +143,9 @@ nav {
     grid-template-rows: 1fr;
     grid-gap: 1rem;
     padding-left: 10em;
+    padding-right: 10em;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .space {
@@ -164,4 +166,8 @@ nav {
 
 p, h3{
   font-family: sans-serif;
+}
+
+.links-logo {
+  padding-top: 2em;
 }
